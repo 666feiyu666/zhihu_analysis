@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated outputs
+original_data/*
+network/outputs/*
+labeling/outputs/*
+senior_thesis/outputs/*
+!original_data/README.md
+!original_data/.gitkeep
+!network/outputs/.gitkeep
+!labeling/outputs/.gitkeep
+!senior_thesis/outputs/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
