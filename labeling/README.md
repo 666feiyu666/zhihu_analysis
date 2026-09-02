@@ -22,13 +22,13 @@ https://www.zhihu.com/question/668753879/answer/3649938067
 在项目根目录运行：
 
 ```powershell
-D:\ProgramData\Anaconda3\python.exe labeling\label_sample.py
+uv run python labeling\label_sample.py
 ```
 
 默认只抽取并打标 100 条，供人工检查。若要对全部非空回答打标，显式运行：
 
 ```powershell
-D:\ProgramData\Anaconda3\python.exe labeling\label_sample.py --mode full
+uv run python labeling\label_sample.py --mode full
 ```
 
 全量打标结果仍然是机器规则结果，后续可以替换为更强的人工校验或模型打标方法。

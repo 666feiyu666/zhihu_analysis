@@ -1,7 +1,7 @@
+# Compatibility file only; pyproject.toml and uv.lock are authoritative.
 pandas
 openpyxl
 networkx
 matplotlib
 nbformat
 ipython
-

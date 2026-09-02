@@ -24,7 +24,7 @@ https://www.zhihu.com/question/668753879/answer/3649938067
 在项目根目录运行：
 
 ```powershell
-D:\ProgramData\Anaconda3\python.exe network\build_network.py
+uv run python network\build_network.py
 ```
 
 ## 输出文件
